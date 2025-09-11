@@ -1,1 +1,3 @@
-# readme file for DNNObjectRec_Kato2025
+# Kato M., et al., 202X, Journal
+## codes
+Code to reproduce the figures
