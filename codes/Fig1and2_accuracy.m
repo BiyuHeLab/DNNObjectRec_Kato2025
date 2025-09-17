@@ -1,7 +1,7 @@
 clear;clc
 rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2025';
 addpath([rootD '/codes'])
-savedir = [rootD '/analysis/Fig1-2_accuracy'];
+savedir = [rootD '/analysis/Fig1_Fig2_accuracy'];
 if ~exist(savedir,'dir');mkdir(savedir);end
 load([rootD '/rawdata/behav_exp1/summary.mat'])
 cnntype   = {'resnet50','convnextL','cornet-s','vit_l_16',...

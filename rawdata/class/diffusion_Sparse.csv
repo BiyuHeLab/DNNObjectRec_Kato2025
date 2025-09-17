@@ -1,0 +1,206 @@
+,file_name,image_type,predicted_index,possible_label
+0,butterfly_ILSVRC2012_val_00013795_cs.jpg,Cro_v05,410,apiary
+1,guitar_ILSVRC2012_val_00021556_cs.jpg,Cro_v05,646,maze
+2,airplane_ILSVRC2012_val_00049097_cs.jpg,Cro_v05,226,Briard
+3,spider_ILSVRC2012_val_00039661_cs.jpg,Cro_v05,646,maze
+4,car_ILSVRC2012_val_00010455_cs.jpg,Cro_v05,838,sunscreen
+5,rabbit_ILSVRC2012_val_00013125_cs.jpg,Cro_v05,980,volcano
+6,acorn_ILSVRC2012_val_00012754_cs.jpg,Cro_v05,838,sunscreen
+7,monkey_ILSVRC2012_val_00003631_cs.jpg,Cro_v05,410,apiary
+8,broccoli_ILSVRC2012_val_00019851_cs.jpg,Cro_v05,838,sunscreen
+9,turtle_ILSVRC2012_val_00049782_cs.jpg,Cro_v05,838,sunscreen
+10,pineapple_ILSVRC2012_val_00012582_cs.jpg,Cro_v05,838,sunscreen
+11,lemon_ILSVRC2012_val_00038325_cs.jpg,Cro_v05,838,sunscreen
+12,dummyn02077923_ILSVRC2012_val_00032166_cs.jpg,Cro_v05,916,website
+13,elephant_ILSVRC2012_val_00035479_cs.jpg,Cro_v05,78,tick
+14,bird_ILSVRC2012_val_00004344_cs.jpg,Cro_v05,410,apiary
+15,mug_ILSVRC2012_val_00020276_cs.jpg,Cro_v05,725,drink pitcher
+16,lobster_ILSVRC2012_val_00036759_cs.jpg,Cro_v05,664,monitor
+17,camel_ILSVRC2012_val_00013553_cs.jpg,Cro_v05,410,apiary
+18,acorn_ILSVRC2012_val_00013791_cs.jpg,Cro_v05,838,sunscreen
+19,airplane_ILSVRC2012_val_00023781_cs.jpg,Cro_v05,366,gorilla
+20,lobster_ILSVRC2012_val_00002502_cs.jpg,Cro_v05,727,planetarium
+21,dummyn01990800_ILSVRC2012_val_00042476_cs.jpg,Cro_v05,410,apiary
+22,bear_ILSVRC2012_val_00020441_cs.jpg,Cro_v05,664,monitor
+23,dummyn02790996_ILSVRC2012_val_00016261_cs.jpg,Cro_v05,775,sarong
+24,cat_ILSVRC2012_val_00038913_cs.jpg,Cro_v05,410,apiary
+25,bear_ILSVRC2012_val_00031906_cs.jpg,Cro_v05,75,southern black widow
+26,bear_ILSVRC2012_val_00038263_cs.jpg,Cro_v05,908,airplane wing
+27,gun_ILSVRC2012_val_00002840_cs.jpg,Cro_v05,75,southern black widow
+28,flower_ILSVRC2012_val_00022139_cs.jpg,Cro_v05,838,sunscreen
+29,dryer_ILSVRC2012_val_00044460_cs.jpg,Cro_v05,664,monitor
+30,mug_ILSVRC2012_val_00043571_cs.jpg,Cro_v05,310,ant
+31,squirrel_ILSVRC2012_val_00048792_cs.jpg,Cro_v05,410,apiary
+32,hammer_ILSVRC2012_val_00003387_cs.jpg,Cro_v05,970,mountain
+33,mug_ILSVRC2012_val_00025548_cs.jpg,Cro_v05,908,airplane wing
+34,hammer_ILSVRC2012_val_00001110_cs.jpg,Cro_v05,646,maze
+35,horse_ILSVRC2012_val_00011600_cs.jpg,Cro_v05,664,monitor
+36,mushroom_ILSVRC2012_val_00021713_cs.jpg,Cro_v05,646,maze
+37,rabbit_ILSVRC2012_val_00044412_cs.jpg,Cro_v05,78,tick
+38,dummyn02174001_ILSVRC2012_val_00032303_cs.jpg,Cro_v05,469,cauldron
+39,dummyn02769748_ILSVRC2012_val_00016010_cs.jpg,Cro_v05,908,airplane wing
+40,mug_ILSVRC2012_val_00027194_cs.jpg,Cro_v05,908,airplane wing
+41,lobster_ILSVRC2012_val_00028657_cs.jpg,Cro_v05,980,volcano
+42,bee_ILSVRC2012_val_00014008_cs.jpg,Cro_v05,78,tick
+43,dummyn01882714_ILSVRC2012_val_00010137_cs.jpg,Cro_v05,410,apiary
+44,dog_ILSVRC2012_val_00028881_cs.jpg,Cro_v05,246,Great Dane
+45,car_ILSVRC2012_val_00037492_cs.jpg,Cro_v05,727,planetarium
+46,spider_ILSVRC2012_val_00029156_cs.jpg,Cro_v05,995,earth star fungus
+47,horse_ILSVRC2012_val_00029082_cs.jpg,Cro_v05,78,tick
+48,monkey_ILSVRC2012_val_00027323_cs.jpg,Cro_v05,205,Flat-Coated Retriever
+49,mug_ILSVRC2012_val_00025893_cs.jpg,Cro_v05,838,sunscreen
+50,horse_ILSVRC2012_val_00008317_cs.jpg,Cro_v05,246,Great Dane
+51,dummyn02319095_ILSVRC2012_val_00039357_cs.jpg,Cro_v05,78,tick
+52,butterfly_ILSVRC2012_val_00042436_cs.jpg,Cro_v05,410,apiary
+53,dummyn02071294_ILSVRC2012_val_00039369_cs.jpg,Cro_v05,644,matchstick
+54,frog_ILSVRC2012_val_00010287_cs.jpg,Cro_v05,410,apiary
+55,dummyn02509815_ILSVRC2012_val_00006925_cs.jpg,Cro_v05,970,mountain
+56,squirrel_ILSVRC2012_val_00042981_cs.jpg,Cro_v05,410,apiary
+57,butterfly_ILSVRC2012_val_00035074_cs.jpg,Cro_v05,410,apiary
+58,snail_ILSVRC2012_val_00045031_cs.jpg,Cro_v05,995,earth star fungus
+59,hippopotamus_ILSVRC2012_val_00032449_cs.jpg,Cro_v05,838,sunscreen
+60,bird_ILSVRC2012_val_00007153_cs.jpg,Cro_v05,78,tick
+61,camel_ILSVRC2012_val_00015872_cs.jpg,Cro_v05,664,monitor
+62,crocodilian_ILSVRC2012_val_00038287_cs.jpg,Cro_v05,970,mountain
+63,dummyn02317335_ILSVRC2012_val_00001740_cs.jpg,Cro_v05,995,earth star fungus
+64,fish_ILSVRC2012_val_00021343_cs.jpg,Cro_v05,75,southern black widow
+65,hammer_ILSVRC2012_val_00032002_cs.jpg,Cro_v05,775,sarong
+66,snake_ILSVRC2012_val_00027631_cs.jpg,Cro_v05,501,cloak
+67,bellpepper_ILSVRC2012_val_00028090_cs.jpg,Cro_v05,410,apiary
+68,acorn_ILSVRC2012_val_00028557_cs.jpg,Cro_v05,838,sunscreen
+69,butterfly_ILSVRC2012_val_00015608_cs.jpg,Cro_v05,410,apiary
+70,dummyn02444819_ILSVRC2012_val_00015927_cs.jpg,Cro_v05,838,sunscreen
+71,bird_ILSVRC2012_val_00030545_cs.jpg,Cro_v05,410,apiary
+72,strawberry_ILSVRC2012_val_00023739_cs.jpg,Cro_v05,838,sunscreen
+73,dummyn01682714_ILSVRC2012_val_00043774_cs.jpg,Cro_v05,501,cloak
+74,snail_ILSVRC2012_val_00023958_cs.jpg,Cro_v05,970,mountain
+75,cat_ILSVRC2012_val_00001341_cs.jpg,Cro_v05,410,apiary
+76,crab_ILSVRC2012_val_00008705_cs.jpg,Cro_v05,501,cloak
+77,spider_ILSVRC2012_val_00026030_cs.jpg,Cro_v05,506,spiral or coil
+78,acorn_ILSVRC2012_val_00031536_cs.jpg,Cro_v05,410,apiary
+79,cat_ILSVRC2012_val_00000796_cs.jpg,Cro_v05,838,sunscreen
+80,apple_ILSVRC2012_val_00000023_cs.jpg,Cro_v05,838,sunscreen
+81,dummyn02364673_ILSVRC2012_val_00019642_cs.jpg,Cro_v05,410,apiary
+82,dummyn02783161_ILSVRC2012_val_00011882_cs.jpg,Cro_v05,501,cloak
+83,dummyn02319095_ILSVRC2012_val_00020616_cs.jpg,Cro_v05,323,monarch butterfly
+84,spider_ILSVRC2012_val_00008805_cs.jpg,Cro_v05,646,maze
+85,squirrel_ILSVRC2012_val_00024584_cs.jpg,Cro_v05,501,cloak
+86,swine_ILSVRC2012_val_00011892_cs.jpg,Cro_v05,664,monitor
+87,camel_ILSVRC2012_val_00006200_cs.jpg,Cro_v05,664,monitor
+88,flower_ILSVRC2012_val_00019320_cs.jpg,Cro_v05,908,airplane wing
+89,shoe_ILSVRC2012_val_00020303_cs.jpg,Cro_v05,75,southern black widow
+90,dummyn01882714_ILSVRC2012_val_00035140_cs.jpg,Cro_v05,410,apiary
+91,shoe_ILSVRC2012_val_00019717_cs.jpg,Cro_v05,20,American dipper
+92,shoe_ILSVRC2012_val_00048970_cs.jpg,Cro_v05,78,tick
+93,dummyn01990800_ILSVRC2012_val_00021042_cs.jpg,Cro_v05,722,ping-pong ball
+94,crab_ILSVRC2012_val_00004462_cs.jpg,Cro_v05,501,cloak
+95,airplane_ILSVRC2012_val_00011168_cs.jpg,Cro_v05,75,southern black widow
+96,broccoli_ILSVRC2012_val_00027637_cs.jpg,Cro_v05,838,sunscreen
+97,gun_ILSVRC2012_val_00018910_cs.jpg,Cro_v05,75,southern black widow
+98,snake_ILSVRC2012_val_00013400_cs.jpg,Cro_v05,838,sunscreen
+99,elephant_ILSVRC2012_val_00040375_cs.jpg,Cro_v05,78,tick
+100,elephant_ILSVRC2012_val_00011247_cs.jpg,Cro_v05,970,mountain
+101,crab_ILSVRC2012_val_00011922_cs.jpg,Cro_v05,970,mountain
+102,rabbit_ILSVRC2012_val_00006108_cs.jpg,Cro_v05,646,maze
+103,pineapple_ILSVRC2012_val_00023804_cs.jpg,Cro_v05,646,maze
+104,squirrel_ILSVRC2012_val_00023383_cs.jpg,Cro_v05,908,airplane wing
+105,apple_ILSVRC2012_val_00045087_cs.jpg,Cro_v05,310,ant
+106,guitar_ILSVRC2012_val_00029538_cs.jpg,Cro_v05,644,matchstick
+107,dummyn01682714_ILSVRC2012_val_00022282_cs.jpg,Cro_v05,970,mountain
+108,camel_ILSVRC2012_val_00011354_cs.jpg,Cro_v05,838,sunscreen
+109,dummyn02992529_ILSVRC2012_val_00039592_cs.jpg,Cro_v05,838,sunscreen
+110,chair_ILSVRC2012_val_00041720_cs.jpg,Cro_v05,78,tick
+111,flower_ILSVRC2012_val_00039137_cs.jpg,Cro_v05,664,monitor
+112,swine_ILSVRC2012_val_00031491_cs.jpg,Cro_v05,410,apiary
+113,frog_ILSVRC2012_val_00022660_cs.jpg,Cro_v05,664,monitor
+114,dog_ILSVRC2012_val_00010378_cs.jpg,Cro_v05,644,matchstick
+115,fish_ILSVRC2012_val_00021994_cs.jpg,Cro_v05,410,apiary
+116,horse_ILSVRC2012_val_00032126_cs.jpg,Cro_v05,984,rapeseed
+117,dummyn02790996_ILSVRC2012_val_00046478_cs.jpg,Cro_v05,78,tick
+118,pineapple_ILSVRC2012_val_00024461_cs.jpg,Cro_v05,838,sunscreen
+119,airplane_ILSVRC2012_val_00033920_cs.jpg,Cro_v05,995,earth star fungus
+120,tiger_ILSVRC2012_val_00015897_cs.jpg,Cro_v05,205,Flat-Coated Retriever
+121,dummyn02174001_ILSVRC2012_val_00024458_cs.jpg,Cro_v05,664,monitor
+122,dummyn02444819_ILSVRC2012_val_00020847_cs.jpg,Cro_v05,970,mountain
+123,dryer_ILSVRC2012_val_00038783_cs.jpg,Cro_v05,75,southern black widow
+124,horse_ILSVRC2012_val_00017358_cs.jpg,Cro_v05,838,sunscreen
+125,bellpepper_ILSVRC2012_val_00000423_cs.jpg,Cro_v05,410,apiary
+126,car_ILSVRC2012_val_00034824_cs.jpg,Cro_v05,727,planetarium
+127,bee_ILSVRC2012_val_00017418_cs.jpg,Cro_v05,838,sunscreen
+128,dummyn02364673_ILSVRC2012_val_00003675_cs.jpg,Cro_v05,838,sunscreen
+129,snake_ILSVRC2012_val_00006751_cs.jpg,Cro_v05,646,maze
+130,hammer_ILSVRC2012_val_00028069_cs.jpg,Cro_v05,322,ringlet butterfly
+131,frog_ILSVRC2012_val_00041279_cs.jpg,Cro_v05,727,planetarium
+132,dummyn02802426_ILSVRC2012_val_00014210_cs.jpg,Cro_v05,838,sunscreen
+133,dummyn02317335_ILSVRC2012_val_00021973_cs.jpg,Cro_v05,970,mountain
+134,crocodilian_ILSVRC2012_val_00037166_cs.jpg,Cro_v05,838,sunscreen
+135,snake_ILSVRC2012_val_00014926_cs.jpg,Cro_v05,501,cloak
+136,crab_ILSVRC2012_val_00034670_cs.jpg,Cro_v05,664,monitor
+137,squirrel_ILSVRC2012_val_00035501_cs.jpg,Cro_v05,816,spindle
+138,rabbit_ILSVRC2012_val_00021667_cs.jpg,Cro_v05,838,sunscreen
+139,dummyn02992529_ILSVRC2012_val_00047006_cs.jpg,Cro_v05,838,sunscreen
+140,dryer_ILSVRC2012_val_00013313_cs.jpg,Cro_v05,838,sunscreen
+141,guitar_ILSVRC2012_val_00036762_cs.jpg,Cro_v05,664,monitor
+142,dummyn02165456_ILSVRC2012_val_00023650_cs.jpg,Cro_v05,838,sunscreen
+143,gun_ILSVRC2012_val_00003457_cs.jpg,Cro_v05,638,tights
+144,dummyn02071294_ILSVRC2012_val_00033565_cs.jpg,Cro_v05,410,apiary
+145,chair_ILSVRC2012_val_00004120_cs.jpg,Cro_v05,664,monitor
+146,camel_ILSVRC2012_val_00003409_cs.jpg,Cro_v05,970,mountain
+147,dummyn02769748_ILSVRC2012_val_00028578_cs.jpg,Cro_v05,410,apiary
+148,bear_ILSVRC2012_val_00011967_cs.jpg,Cro_v05,205,Flat-Coated Retriever
+149,gun_ILSVRC2012_val_00016796_cs.jpg,Cro_v05,970,mountain
+150,bear_ILSVRC2012_val_00041813_cs.jpg,Cro_v05,838,sunscreen
+151,chair_ILSVRC2012_val_00012771_cs.jpg,Cro_v05,816,spindle
+152,crocodilian_ILSVRC2012_val_00010826_cs.jpg,Cro_v05,501,cloak
+153,chair_ILSVRC2012_val_00001953_cs.jpg,Cro_v05,664,monitor
+154,spider_ILSVRC2012_val_00029756_cs.jpg,Cro_v05,646,maze
+155,snail_ILSVRC2012_val_00046248_cs.jpg,Cro_v05,469,cauldron
+156,mushroom_ILSVRC2012_val_00038421_cs.jpg,Cro_v05,501,cloak
+157,elephant_ILSVRC2012_val_00032620_cs.jpg,Cro_v05,664,monitor
+158,car_ILSVRC2012_val_00005456_cs.jpg,Cro_v05,410,apiary
+159,dog_ILSVRC2012_val_00030058_cs.jpg,Cro_v05,644,matchstick
+160,snake_ILSVRC2012_val_00024301_cs.jpg,Cro_v05,506,spiral or coil
+161,turtle_ILSVRC2012_val_00024666_cs.jpg,Cro_v05,838,sunscreen
+162,gun_ILSVRC2012_val_00012180_cs.jpg,Cro_v05,838,sunscreen
+163,airplane_ILSVRC2012_val_00030531_cs.jpg,Cro_v05,108,sea anemone
+164,banana_ILSVRC2012_val_00049606_cs.jpg,Cro_v05,469,cauldron
+165,snail_ILSVRC2012_val_00001959_cs.jpg,Cro_v05,727,planetarium
+166,mushroom_ILSVRC2012_val_00040625_cs.jpg,Cro_v05,78,tick
+167,hammer_ILSVRC2012_val_00015583_cs.jpg,Cro_v05,638,tights
+168,dryer_ILSVRC2012_val_00027635_cs.jpg,Cro_v05,976,promontory
+169,bird_ILSVRC2012_val_00017028_cs.jpg,Cro_v05,664,monitor
+170,lobster_ILSVRC2012_val_00047059_cs.jpg,Cro_v05,727,planetarium
+171,hippopotamus_ILSVRC2012_val_00038747_cs.jpg,Cro_v05,727,planetarium
+172,broccoli_ILSVRC2012_val_00004207_cs.jpg,Cro_v05,644,matchstick
+173,broccoli_ILSVRC2012_val_00043347_cs.jpg,Cro_v05,310,ant
+174,flower_ILSVRC2012_val_00013936_cs.jpg,Cro_v05,838,sunscreen
+175,turtle_ILSVRC2012_val_00036345_cs.jpg,Cro_v05,727,planetarium
+176,crocodilian_ILSVRC2012_val_00038647_cs.jpg,Cro_v05,410,apiary
+177,lobster_ILSVRC2012_val_00017039_cs.jpg,Cro_v05,638,tights
+178,helmet_ILSVRC2012_val_00032342_cs.jpg,Cro_v05,838,sunscreen
+179,bird_ILSVRC2012_val_00028363_cs.jpg,Cro_v05,664,monitor
+180,dummyn02165456_ILSVRC2012_val_00035067_cs.jpg,Cro_v05,838,sunscreen
+181,flower_ILSVRC2012_val_00048934_cs.jpg,Cro_v05,78,tick
+182,chair_ILSVRC2012_val_00044181_cs.jpg,Cro_v05,970,mountain
+183,guitar_ILSVRC2012_val_00019484_cs.jpg,Cro_v05,78,tick
+184,bee_ILSVRC2012_val_00042015_cs.jpg,Cro_v05,970,mountain
+185,fish_ILSVRC2012_val_00047320_cs.jpg,Cro_v05,75,southern black widow
+186,lemon_ILSVRC2012_val_00034286_cs.jpg,Cro_v05,838,sunscreen
+187,dog_ILSVRC2012_val_00012566_cs.jpg,Cro_v05,838,sunscreen
+188,turtle_ILSVRC2012_val_00009376_cs.jpg,Cro_v05,838,sunscreen
+189,dummyn02783161_ILSVRC2012_val_00016131_cs.jpg,Cro_v05,501,cloak
+190,tiger_ILSVRC2012_val_00048186_cs.jpg,Cro_v05,205,Flat-Coated Retriever
+191,dummyn02802426_ILSVRC2012_val_00004993_cs.jpg,Cro_v05,646,maze
+192,elephant_ILSVRC2012_val_00018263_cs.jpg,Cro_v05,323,monarch butterfly
+193,pineapple_ILSVRC2012_val_00029522_cs.jpg,Cro_v05,664,monitor
+194,fish_ILSVRC2012_val_00032417_cs.jpg,Cro_v05,838,sunscreen
+195,pineapple_ILSVRC2012_val_00009015_cs.jpg,Cro_v05,323,monarch butterfly
+196,monkey_ILSVRC2012_val_00030191_cs.jpg,Cro_v05,970,mountain
+197,bellpepper_ILSVRC2012_val_00048089_cs.jpg,Cro_v05,410,apiary
+198,lemon_ILSVRC2012_val_00048264_cs.jpg,Cro_v05,78,tick
+199,hippopotamus_ILSVRC2012_val_00006991_cs.jpg,Cro_v05,664,monitor
+200,turtle_ILSVRC2012_val_00047941_cs.jpg,Cro_v05,410,apiary
+201,dummyn02509815_ILSVRC2012_val_00014686_cs.jpg,Cro_v05,838,sunscreen
+202,mushroom_ILSVRC2012_val_00039698_cs.jpg,Cro_v05,722,ping-pong ball
+203,butterfly_ILSVRC2012_val_00025307_cs.jpg,Cro_v05,78,tick
+204,dummyn02077923_ILSVRC2012_val_00023081_cs.jpg,Cro_v05,838,sunscreen

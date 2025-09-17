@@ -33,7 +33,7 @@ figH = 6.5;
 [~, colNo]    = ismember(cnntypes,models);
 colIdx        = ismember(models,cnntypes);
 clipIdx       = contains(models,'clip') &~colIdx;
-hum_like_rank = cell(length(models),length(imtype));
+hum_like_rank = cell(length(models),length(imtype)); % table S2
 for type = 1:length(imtype) 
     if ~exist([savedir '/'  imtype{type} '.mat'],'file')
         hum = squeeze(d_batch_cl(:,type+1,:));

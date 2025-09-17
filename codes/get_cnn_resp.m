@@ -1,4 +1,4 @@
-function [d,imName] = get_cnn_resp(rootD,cnntype,imtype,top)
+function [d,imName,pred] = get_cnn_resp(rootD,cnntype,imtype,top)
 if nargin < 4
     top = 1;
 end
@@ -15,7 +15,7 @@ end
 raw      = raw(ord,:);
 d      = [];
 imName = {};
-
+pred   = {};
 if strcmp(imtype,'Sparse')
     pathName_remove = 'Cro_v05';
 elseif strcmp(imtype,'Dense')
@@ -38,9 +38,11 @@ for cls = 1:length(subclass)
         if top == 1
             output = cellfun(@(x) strrep(x,'_',' '),lower(raw.top1_class(imIdx)),'uniformoutput',false);
             d      = [d;ismember(output,corrans)];
+            pred   = [pred;raw.top1_class(imIdx)];
         else
             output = cellfun(@(x) strrep(x,'_',' '),lower(raw.top5_class(imIdx)),'uniformoutput',false);
             d      = [d;contains(output,corrans)];
+            pred   = [pred;raw.top1_class(imIdx)];
         end
         imName_raw = cellfun(@(x) strrep(x,[pathName_remove '_'],''),raw.image_path(imIdx), 'UniformOutput', false);
         imName     = [imName;imName_raw];

@@ -6,7 +6,7 @@ if ~exist(savedir,'dir');mkdir(savedir);end
 load([rootD '/rawdata/behav_exp2/summary.mat'])
 load([rootD '/rawdata/DNNlabels.mat'])
 cnntypes   = {'resnet50','convnextL','cornet-s','vit_l_16',...
-    'resnet50-sin','resnet50-blur-st','cornet-s-blur-st',...
+    'resnet50-sin','cornet-s-blur-st','resnet50-blur-st',...
     'clip_convnextL_image','clip_vit-l-laion_image',....
     'convnext_large_mlp:clip_laion2b_augreg_ft_in1k_384' 'vit_large_patch14_clip_224.laion2b_ft_in12k_in1k'};
 Cres = [49 130 189];
@@ -32,7 +32,7 @@ figH = 6.5;
 [~, colNo]    = ismember(cnntypes,models);
 colIdx        = ismember(models,cnntypes);
 clipIdx       = contains(models,'clip') &~colIdx;
-hum_like_rank = cell(length(models),length(imtype));
+hum_like_rank = cell(length(models),length(imtype)); % table S2
 for type = 1:length(imtype) 
     if ~exist([savedir '/'  imtype{type} '.mat'],'file')
         hum = squeeze(d_indv_cl(:,type+1,:));
