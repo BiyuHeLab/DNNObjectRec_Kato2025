@@ -1,4 +1,4 @@
-# Kato M., et al., 2025, for reviewers
+# Kato M., et al., 2025
 Analysis scripts and codes for reproducing figures in the manuscript Systematic image perturbations reveal persistent gaps between biological and machine vision
 
 ## Organization
