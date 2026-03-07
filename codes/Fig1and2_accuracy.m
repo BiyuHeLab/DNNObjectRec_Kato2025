@@ -24,7 +24,7 @@ facec     = [Cres;Ccon;Ccor;Cvit;...
              Ccon;Cvit;...
              Ccon;Cvit];
 imtype   = {'Ori' 'Fil' 'Lin' 'SilTex' 'Sil' 'Tex' 'LinFil'};
-figlabel = {'Fig.1e' 'Fig.2a' 'Fig.2b' 'Fig.2c' 'Fig.2d' 'Fig.2e' 'Fig.2f'};
+figlabel = {'Fig.1d' 'Fig.2a' 'Fig.2b' 'Fig.2c' 'Fig.2d' 'Fig.2e' 'Fig.2f'};
 top   = 1;
 
 figW = 6.5;

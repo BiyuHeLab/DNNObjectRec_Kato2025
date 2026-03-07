@@ -23,8 +23,8 @@ facec     = [Cres;Ccon;Ccor;Cvit;...
              0 0 0;Ccon;Cvit;...
              0 0 0;Ccon;Cvit;...
              0 0 0;Chum];
-imtype   = {'Ori','Fil' 'Lin' 'SilTex' 'Sil' 'Tex' 'LinFil'};
-figlabel = {'Fig.1e' 'Fig.2a' 'Fig.2b' 'Fig.2c' 'Fig.2d' 'Fig.2e' 'Fig.2f'};
+imtype   = {'Fil' 'Lin' 'SilTex' 'Sil' 'Tex' 'LinFil'};
+figlabel = {'Fig.2a' 'Fig.2b' 'Fig.2c' 'Fig.2d' 'Fig.2e' 'Fig.2f'};
 
 nbs = 2000; % number of bootstrapping
 figW = 6.5;

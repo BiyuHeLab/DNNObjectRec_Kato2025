@@ -36,9 +36,10 @@ clipIdx       = contains(models,'clip') &~colIdx;
 hum_like_rank = cell(length(models),length(imtype)); % table S2
 for type = 1:length(imtype) 
     if ~exist([savedir '/'  imtype{type} '.mat'],'file')
-        hum = squeeze(d_batch_cl(:,type+1,:));
+        hum      = squeeze(d_batch_cl(:,type+1,:)); % nImage*nSubject
         nbatch   = size(hum,2);
-        hum_accs = squeeze(mean(hum,1,'omitnan'));
+        hum_accs = squeeze(mean(hum,1,'omitnan')); % avg across image
+     
         hum_kappa = nan(nchoosek(nbatch,2),1);
         %-human
         ii = 1;
@@ -89,15 +90,23 @@ for type = 1:length(imtype)
         load([savedir '/'  imtype{type} '.mat'])
     end
 
+    hum_accs_sd  = std(hum_accs*100); 
     hum_kapp_min = min(hum_kappa);
     hum_kapp_max = max(hum_kappa);
-
+    hum_kapp_sd  = std(hum_kappa);
+    
     figure
     hold on
     plot([xlims(type,1) xlims(type,2)],[mean(hum_kappa) mean(hum_kappa)],'--','Color',[.5 .5 .5 .5],'LineWidth',2);
     plot([mean(hum_accs) mean(hum_accs)]*100,[ylims(type,1) ylims(type,2)],'--','Color',[.5 .5 .5 .5],'LineWidth',2);
-    xregion(min(hum_accs)*100,max(hum_accs)*100,'FaceColor',[.8 .8 .8])
-    yregion(hum_kapp_min,hum_kapp_max,'FaceColor',[.8 .8 .8])
+
+    xregion(mean(hum_accs)*100-hum_accs_sd,mean(hum_accs)*100+hum_accs_sd,'FaceColor',[.8 .8 .8])
+    yregion(mean(hum_kappa)-hum_kapp_sd,mean(hum_kappa)+hum_kapp_sd,'FaceColor',[.8 .8 .8])
+    plot([xlims(type,1) xlims(type,2)],[hum_kapp_min hum_kapp_min],':','Color',[.5 .5 .5 .5],'LineWidth',1);
+    plot([xlims(type,1) xlims(type,2)],[hum_kapp_max hum_kapp_max],':','Color',[.5 .5 .5 .5],'LineWidth',1);
+    plot([min(hum_accs)*100 min(hum_accs)*100],[ylims(type,1) ylims(type,2)],':','Color',[.5 .5 .5 .5],'LineWidth',1);
+    plot([max(hum_accs)*100 max(hum_accs)*100],[ylims(type,1) ylims(type,2)],':','Color',[.5 .5 .5 .5],'LineWidth',1);
+
     scatter(mean(accs(:,~colIdx),1,'omitnan')*100,mean(kappa(:,~colIdx),1,'omitnan'),sz,...
         'MarkerFaceColor',[.5 .5 .5],'MarkerFaceAlpha',0.6,'MarkerEdgeColor','none');
     axis square
