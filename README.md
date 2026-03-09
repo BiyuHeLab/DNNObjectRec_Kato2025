@@ -1,5 +1,5 @@
-# Kato M., et al., 2025, for reviewers
-Analysis scripts and codes for reproducing figures in the manuscript Systematic image perturbations reveal persistent gaps between biological and machine vision
+# Kato M., et al., 2026
+Analysis scripts and codes for reproducing figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**
 
 ## Organization
 
@@ -21,7 +21,7 @@ We provide ImageNet image IDs (`ImageNet_image_IDs.csv`) and background masks. O
 Background masks used to isolate objects.
 
 #### **stim/genim/**
-Generated images used in the experiments. Only the example images shown in Fig. 1a and Fig. S1c are included.
+Generated images used in the experiments. Only the example images shown in Fig. 1a and Fig. S2 are included.
 
 #### **stim/imagenet_subclass/**
 `{Category label}.csv` lists ImageNet classes mapped to that category, defined using the WordNet lexical hierarchy. For example, when evaluating DNN predictions for the category `bear`, the following ImageNet classes were considered correct:
