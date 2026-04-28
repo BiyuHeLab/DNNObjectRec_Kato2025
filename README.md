@@ -1,6 +1,6 @@
 # Kato M., et al., 2026
 Analysis scripts and codes for reproducing figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**
-
+We are currently preparing to submit this dataset as a new behavioral benchmark on Brain-Score and will update this page once it is accepted and released.
 ## Organization
 
 ### **analysis/**
@@ -39,5 +39,5 @@ Generated images used in the experiments. Only the example images shown in Fig. 
 This folder includes the following data:
 - human raw responses in Exp1 and Exp2 (`behav_exp1/` and `behav_exp2/`)
 - DNNs' top-1 predictions (`class/`)
-- IT predictability of each DNN, obtained from [Brain-score](https://www.brain-score.org/vision/leaderboard) (`benchmark_scores.csv`)
+- IT predictability and behavioral benchmark scores of each DNN, obtained from [Brain-score](https://www.brain-score.org/vision/leaderboard) (`benchmark_scores.csv`)
 - DNN labels used in large scale analysis in Figs.3 and 4 (`DNNlabels.mat`)
