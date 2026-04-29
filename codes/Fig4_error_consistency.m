@@ -144,6 +144,8 @@ for type = 1:length(imtype)
 
     figure
     hold on;
+    med = median(kappa(:,end));
+    plot([0 length(cnnLabel)],[med med],':','Color',[.5 .5 .5],'LineWidth',1.5)    
     for ii = 1:size(kappa,2)
         swarmchart(ones(size(kappa,1),1)*ii,kappa(:,ii),7.5,'o','MarkerEdgeColor','none',...
             'MarkerFaceAlpha',0.65,'MarkerFaceColor',facec(ii,:)/255,'XJitterWidth',0.4)

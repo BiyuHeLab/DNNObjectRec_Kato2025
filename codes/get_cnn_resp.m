@@ -3,7 +3,12 @@ if nargin < 4
     top = 1;
 end
 subclass = dir([rootD '/stim/imagenet_subclass/*.csv']);
-raw      = readtable([rootD '/rawdata/class/' cnntype '_' imtype '.csv'],'Delimiter',',');
+rawfile = [rootD '/rawdata/class/' cnntype '_' imtype '.csv'];
+if exist(rawfile,'file')
+    raw = readtable([rootD '/rawdata/class/' cnntype '_' imtype '.csv'],'Delimiter',',');
+else
+    raw = readtable([rootD '/rawdata/class/' cnntype '_' imtype '.csv'],'Delimiter',',');
+end
 if contains(cnntype,'diffusion')
     classId = readcell([rootD '/stim/codes/ImageNet_CoarseCat.csv']);
     tmppred  = classId(raw.predicted_index+2,2);
@@ -48,6 +53,7 @@ for cls = 1:length(subclass)
         imName     = [imName;imName_raw];
     end
 end
+
 
 end
 

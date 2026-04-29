@@ -85,6 +85,25 @@ num_sig_cnn = sum(sigflag_cnn,3);
 num_sig_hum = sum(sigflag_hum,3);
 num_sig = cat(3,num_sig_hum,num_sig_cnn);
 
+
+pval_grp = nan(ncnd,ncnd);
+for c1 = 1:ncnd
+    for c2 = c1+1:ncnd
+        k = squeeze(kappa_hum(c2,c1,:));
+        pval_grp(c2,c1) = signrank(k,0,"tail","right");
+    end
+end
+
+p = pval_grp(~isnan(pval_grp));
+[sigflag_tmp,~,~,p_fdr_tmp] = fdr_bh(p,0.05,'dep');
+
+sigflag = nan(size(pval_grp));   
+p_fdr   = nan(size(pval_grp));
+mask = ~isnan(pval_grp);             
+sigflag(mask) = sigflag_tmp; 
+p_fdr(mask) = p_fdr_tmp;
+
+
 for ii = 1:2
     if ii == 1
         t = 'Human';
@@ -117,6 +136,10 @@ for ii = 1:2
     for c1=1:ncnd
         for c2 = c1+1:ncnd
             text(c1,c2,num2str(num_sig(c2,c1,ii)),'FontSize',8,'Color','r','HorizontalAlignment','center');
+            idx = sub2ind([ncnd ncnd],c2,c1);
+            if ii == 1 && sigflag(idx) == 1
+                text(c1-0.25,c2-0.15,'*','FontSize',12,'Color','w','HorizontalAlignment','center');
+            end
         end
     end
     figW = 4.75;

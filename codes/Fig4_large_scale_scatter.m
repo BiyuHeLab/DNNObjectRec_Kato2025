@@ -165,7 +165,7 @@ for type = 1:length(imtype)
         t{1,3} = 'error consistency';
         t(2:end,2) = num2cell(mean(accs(:,~colIdx),1,'omitnan')'*100);
         t(2:end,3) = num2cell(mean(kappa(:,~colIdx),1,'omitnan')');
-        writetable(cell2table(t), [rootD '/sourcedat.xlsx'],'Sheet',figlabel{type},'WriteVariableNames',false);
+        writetable(cell2table(t), [rootD '/sourcedat.xlsx'],'Sheet',figlabel{type},'WriteVariableNames',false,'Range','J1');
     end
 end
 

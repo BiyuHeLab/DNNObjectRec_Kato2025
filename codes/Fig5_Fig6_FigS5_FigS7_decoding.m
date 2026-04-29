@@ -1,7 +1,7 @@
 clear;clc
 rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2025';
 addpath([rootD '/codes'])
-savedir   = [rootD '/analysis/Fig5_Fig6_FigS7_decoding'];
+savedir   = [rootD '/analysis/Fig5_Fig6_FigS5_FigS7_decoding'];
 if ~exist(savedir,'dir');mkdir(savedir);end
 imtype    = {'Fil' 'Lin' 'SilTex' 'Sil' 'Tex' 'LinFil' 'Sparse' 'Dense'};
 cnntypes = {'convnextL'  'clip_convnextL_image' 'convnext_large_mlp:clip_laion2b_augreg_ft_in1k_384'...
@@ -20,9 +20,9 @@ for cnn = 1:length(cnntypes)
         layers = get_layer_names(cnntype,1);
         accs = nan(length(imtype),length(layers));
         null = nan(nperm,length(imtype),length(layers));
-        for lay = 1:length(layers)
-            layer = layers{lay}
-            for t = 1:length(imtype)
+        for lay = 1:length(layers) 
+            layer = layers{lay};
+            for t = 1:length(imtype) 
                 actD = sprintf([rootD '/rawdata/act/%s_%s'], cnntype, imtype{t});
                 act_files = dir([actD '/*/' layer '.mat']);
                 for af = 1:length(act_files)
@@ -164,9 +164,8 @@ for comb = 1:length(cnntypes)
     end
 end
 
-
 imtype   = {'Sparse' 'Dense'};
-figlabel = {'Fig.5b' 'Fig.S5a' 'Fig.S5b' 'Fig.S5c'};
+figlabel = {'Fig.5b' 'Fig.S5c' 'Fig.S5d' 'Fig.S5e'};
 startcell = {'A' 'E'};
 jit = [.1 0 -.1];
 figW = 5.5;

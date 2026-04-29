@@ -98,10 +98,9 @@ layerlab = cellfun(@(x) strrep(x,'_','\_'),layerlab,'UniformOutput',false);
 
 actlayIdx = contains(layers,'relu')|contains(layers,'.mlp.act')|contains(layers,'.block.4')|contains(layers,'.mlp.1')|...
     contains(layers,'nonlin')|contains(layers,'.mlp.gelu');
-
 if minlay
     tmp = find(actlayIdx);
-    valLayIdx = [tmp(1) ceil(length(layers)/2) tmp(end) length(layers)-1];
+    valLayIdx = [tmp(1) floor(length(layers)/2) tmp(end) length(layers)-1];
     layers = layers(valLayIdx);
     layerlab = layerlab(valLayIdx);
 end
